@@ -1,0 +1,142 @@
+.container {
+    width: 1220px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    background-color: #163A24;
+    padding-top: 20px;
+}
+
+.box {
+    display: flex;
+}
+
+.logo {
+    margin-right: 676px;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+}
+
+.header-item {
+    margin-right: 24px;
+}
+
+.header-list-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+}
+
+.header-link {
+    width: 151px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    background: #198C36;
+    border-radius: 160px;
+}
+
+.get {
+    background-color: #163A24;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.get-box {
+    display: flex;
+}
+
+.get-block {
+    margin-right: 300px;
+}
+
+.get-title {
+    width: 290px;
+    height: 50px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.get-des {
+    width: 390px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.label {
+    width: 250px;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.input {
+    width: 500px;
+    height: 45px;
+    margin-top: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+
+.label2 {
+    width: 290px;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.input2 {
+    width: 504px;
+    height: 45px;
+    margin-top: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: #163A24;
+    color: #fff;
+}
+
+.check-label {
+    width: 420px;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.check {
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: #163A24;
+    color: #fff;
+
+}
+
+.check:checked {
+    border-color: #198C36;
+}
